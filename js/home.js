@@ -1,4 +1,4 @@
-//slider
+//slider\\
 let slides = document.querySelectorAll('#slides .slide');
 let currentSlide = 0;
 let slideInterval = setInterval(nextSlide,3000);
@@ -9,7 +9,7 @@ function nextSlide(){
   slides[currentSlide].className = 'slide showing';
 }
 
-//animation bg nav scroll
+//animation bg nav scroll\\
 
 // window.addEventListener('scroll',(Event)=>{
 // if (window.pageYOffset > 300) {
@@ -54,3 +54,10 @@ function nextSlide(){
 //     nav.style.opacity="1";
 //   }
 //   })
+// change the background of the page according to the value of the checkbox
+const input = document.querySelector('input[type="checkbox"]');
+function handleInput() {
+  const { checked } = this;
+  document.querySelector('body').style.background = checked ? '#151d29' : '#d6e7f7';
+}
+input.addEventListener('input', handleInput);
