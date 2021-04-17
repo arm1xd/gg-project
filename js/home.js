@@ -9,8 +9,48 @@ function nextSlide(){
   slides[currentSlide].className = 'slide showing';
 }
 
-window.addEventListener('scroll',(Event)=>{
-if (window.pageYOffset > 210) {
-  nav.style.position = 'fixed';
-}
-})
+//animation bg nav scroll
+
+// window.addEventListener('scroll',(Event)=>{
+// if (window.pageYOffset > 300) {
+//   nav.style.position = 'fixed';
+//   nav.style.backgroundColor="black";
+//   nav.style.transition="2s all ease"
+//   nav.style.opacity="0.5";
+// }
+// })
+// window.addEventListener('scroll',(Event)=>{
+//   if (window.pageYOffset > 400) {
+    
+//     nav.style.transition="2s all ease"
+//     nav.style.opacity="0.6";
+//   }
+//   })
+//   window.addEventListener('scroll',(Event)=>{
+//     if (window.pageYOffset > 500) {
+      
+//       nav.style.transition="2s all ease"
+//       nav.style.opacity="0.7";
+//     }
+//     })
+//     window.addEventListener('scroll',(Event)=>{
+//       if (window.pageYOffset > 500) {
+        
+//         nav.style.transition="2s all ease"
+//         nav.style.opacity="0.8";
+//       }
+//       })
+//       window.addEventListener('scroll',(Event)=>{
+//         if (window.pageYOffset >600) {
+          
+//           nav.style.transition="2s all ease"
+//           nav.style.opacity="0.9";
+//         }
+//         })
+// window.addEventListener('scroll',(Event)=>{
+//   if (window.pageYOffset > 700) {
+    
+//     nav.style.transition="2s all ease"
+//     nav.style.opacity="1";
+//   }
+//   })
